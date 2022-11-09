@@ -1,10 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*libraries*/
+/* Libraries */
 #include <stdio.h>
+
 #include <unistd.h>
+
 #include <stdarg.h>
+
 #include <limits.h>
 
 /**
@@ -19,3 +22,17 @@ typedef struct print
 	int (*f)(va_list);
 } print_t;
 
+/* Functions */
+int _putchar(char c);
+
+int _printf(const char *format, ...);
+
+int print_char(va_list c);
+
+int print_str(va_list s);
+
+int print_arg(va_list p);
+
+int print_int(va_list i);
+
+#endif
