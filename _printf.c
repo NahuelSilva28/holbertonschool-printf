@@ -1,5 +1,13 @@
 #include "main.h"
 /**
+*chec
+*Return: 
+**/
+int (*check(const char *format))(va_list)
+{
+
+
+/**
 *_printf - print
 *@format: List Argument Types Passed to Tunction
 *Descripction: Output Accord to Format
