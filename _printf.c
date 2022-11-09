@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-*_printf - print
+*_printf - function that print output accord to format
 *@format: List Argument Types Passed to Tunction
-*Descripction: Output Accord to Format
 *Return: Length Characters Printed
 **/
 int _printf(const char *format, ...)
