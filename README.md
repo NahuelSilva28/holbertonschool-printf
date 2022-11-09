@@ -43,8 +43,8 @@
 ### Authors
 
 <<<<<<< HEAD
-- Franco-Olmos 
-- NahuelSilva28
+- [Franco-Olmos](https://github.com/Franco-Olmos).
+- [NahuelSilva28](https://github.com/NahuelSilva28).
 =======
 - Franco Olmos C19- Github: Franco-Olmos
 - Nahuel Silva C19- Github: NahuelSilva28
