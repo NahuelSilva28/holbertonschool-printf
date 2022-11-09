@@ -35,4 +35,6 @@ int print_arg(va_list p);
 
 int print_int(va_list i);
 
+int print_dec(va_list d);
+
 #endif
