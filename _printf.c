@@ -3,14 +3,15 @@
 *check - function
 *@format: Format Specifier predefined
 *Description: Checks Valid Format Specifier
-*Return:Pointer Valid or NULL 
+*Return: Pointer Valid or NULL
 **/
 int (*check(const char *format))(va_list)
 {
 	unsigned int i;
 
-print_t p[] = { {"c", print_char}, {"s", print_str}, {"p", print_arg}, {"d", print_dec},
-	{"i", print_int}, {NULL, NULL} };
+print_t p[] = { {"c", print_char}, {"s", print_str},
+		{"p", print_arg}, {"d", print_dec},
+		{"i", print_int}, {NULL, NULL} };
 
 	for (i = 0; p[i].t != NULL; i++)
 	{
