@@ -42,8 +42,8 @@
 
 ### Authors
 
-- Franco Olmos C19- Github: Franco-Olmos
-- Nahuel Silva C19- Github: NahuelSilva28
+- Franco Olmos C19- Github: [Franco-Olmos](https://github.com/Franco-Olmos)
+- Nahuel Silva C19- Github: [NahuelSilva28](https://github.com/NahuelSilva28)
 
 
 ## Tasks
