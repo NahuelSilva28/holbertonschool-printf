@@ -9,8 +9,8 @@ int (*check(const char *format))(va_list)
 {
 	unsigned int i;
 
-print_t p[] = { {"c", print_c}, {"s", print_s}, {"p", print_p}, {"d", print_d},
-	{"i", print_i}, {NULL, NULL} };
+print_t p[] = { {"c", print_char}, {"s", print_str}, {"p", print_arg}, {"d", print_dec},
+	{"i", print_int}, {NULL, NULL} };
 
 	for (i = 0; p[i].t != NULL; i++)
 	{
