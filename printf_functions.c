@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_c - Function that print char
+* print_char - Function that print char
 * @c: Char
 * Return: 1
 */
-int print_c(va_list c)
+int print_char(va_list c)
 {
 	char ch = (char)va_arg(c, int);
 
@@ -18,7 +18,7 @@ int print_c(va_list c)
 * @s: String
 * Return: Number Chars Printed
 */
-int print_s(va_list s)
+int print_str(va_list s)
 {
 	int count;
 	char *str = va_arg(s, char *);
@@ -37,7 +37,7 @@ int print_s(va_list s)
 * @p:  Arguments
 * Return: Characters Printed.
 */
-int print_p(va_list p)
+int print_arg(va_list p)
 {
 	(void)p;
 	_putchar('%');
