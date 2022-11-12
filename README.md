@@ -31,6 +31,34 @@
 
 - There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
+### Files description
+
+|File| Description |
+|--|--|
+| printf.c | contains the fucntion _printf, which uses the prototype int _printf(const char *format, ...);. The format string is composed of zero or more directives. |
+| _putchar.c | contains the function _putchar, which writes a character to stdout.||
+| main.h | contains all function prototypes used for _printf.|
+| man_3_printf | manual page for the custom _printf function.|
+| printf_functions.c | contains the functions _print_c, _print_p, and _print_ which handle the conversion specifiers.|
+| printf_func_integer.c |  contains the functions _print_i , which handle the conversion specifiers i.|
+| printf_func_decimal.c | contains the functions _print_d , which handle the conversion specifiers d.|
+
+
+
+### Examples
+
+Specifier | Input example | Output example
+| --- | --- | --- |
+%c | "Printing a char: [%c]\n", 'X' | Printing a char: [X]
+%s | "Printing a string: [%s]\n", "Hello, World" | Printing a string: [Hello, World]
+
+### String (%s)
+    Input:  _printf("String:[%s]\n", "I am a string !");
+    Output: String:[I am a string !]
+### Character (%c)
+    Input:  _printf("Character:[%c]\n", 'H');
+    Output: Character:[H]
+
 ### Compilation
 
 - The code can be compiled like this:
