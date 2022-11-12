@@ -1,3 +1,7 @@
+# Diagrama de flujo
+
+![Diagrama de flujo](https://github.com/NahuelSilva28/holbertonschool-printf/blob/master/Diagrama%20de%20flujo%20copia.png)
+
 # C - printf 
 
 - Writing our own `printf` function, this is a project done under [Low Level Programming holbertonschool-printf](https://github.com/NahuelSilva28/holbertonschool-printf).
